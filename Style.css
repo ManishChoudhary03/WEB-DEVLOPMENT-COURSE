@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.container-fluid{
+  color: white;
+  height: 70px;
+}
+.navbar-collapse{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav{
+  margin-left: 40px;
+}
+.navbar-brand{
+  margin-left: 40px;
+}
+ul li{
+  padding: 0 12px;
+}
+ul li i{
+  padding: 0 6px;
+}
+.media{
+  cursor: pointer;
+  margin-right:170px
+    
+}
+.media i{
+  padding: 0px 20px;
+  font-size: 25px; 
+  transition: all 2s ease-in;
+}
+.media i:hover{
+  color: yellow;
+  transform: rotateY(360deg);
+  transition: all 2s ease-in;
+}
